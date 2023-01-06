@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.flex{
+    background-color: rgb(234, 255, 4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 40%;
+    padding-bottom: 10px;
+    font-size: xx-large;
+ 
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+   
+}
+.section ul li a:hover{
+    color: red;
+}
+.titel h1{
+    padding-right: 400px;
+}
+ .container nav{
+    background-color: rgb(26, 255, 0);
+    /* display: flex; */
+    align-items: right;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 50%;
+    padding-bottom: 12px;
+
+}
+img{
+    width: 100px; 
+    padding-left: 150px;
+    padding-top: 15px;
+    
+  }
+  .section ul li{
+      list-style: none;
+      display: inline-block;
+    
+     
+  }
+  .section ul li a{
+      text-decoration: none;
+      padding-right: 40px;
+      font-size: large;
+      font-family: sans-serif;
+      font-weight: bold;
+  }
+  main{
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+ width: 100vw;
+  }
+  main h1{
+    text-transform: capitalize;
+   padding-left: 30px;
+   padding-top: 10px;
+
+  }
+.one{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: darkblue;
+  }
+  main p{
+    padding-left: 50px;
+    color: darkblue;
+    font-size: 25px;
+  }
+  main a{
+    padding-left: 0px;
+    color: rgb(255, 5, 5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px ;
+    text-decoration: none;
+    text-align:center;
+ 
+    
+  }
+.two{
+    
+    color: rgb(0, 0, 0);
+  }
+.id a:hover{
+    color: rgb(255, 0, 0);
+   
+  }
+  .id a{
+    background-color: black;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+   
+    text-align: center;
+  }
+  
+  .logo{
+    display: inline-block;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100vw;
+    padding-left: 150px;
+  }
